@@ -1,0 +1,56 @@
+/* Techieware
+Author/Developer:  Vanessa Bach
+WDD-469 Project & Portfolio - Full Sail University
+Source:  index.css
+*/
+
+/* Style the logo & more */
+.brand-logo {
+  width: 85px;
+  height: 85px;
+  align-content: right;
+  object-position: relative;
+  top: 15pt;
+  left: 85pt;
+}
+
+.brand-title {
+  font-size: 25px;
+  font-weight: bold;
+  align-self: left;
+  margin-right: 25px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.material-icons {
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.card {
+  width: 300px;
+}
+.card .card-image .card-title {
+  color: black;
+  font-weight: 400;
+  margin-top: 50px;
+}
+.motoCart {
+  margin-top: 40px;
+}
+
+nav ul a span.badge {
+  display: inline;
+  border-radius: 100%;
+}
+
+span.badge {
+  z-index: 99999;
+  min-width: 1.5rem;
+  color: #fff;
+  border-radius: 100%;
+  text-align: center;
+}
